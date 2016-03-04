@@ -1,0 +1,75 @@
+
+/* debug */
+.blue {
+  background-color: blue !important;
+}
+.red {
+  background-color: red !important;
+}
+
+body {
+  font-size: 2em;
+  background-color: aliceblue;
+  padding-top: 60px;
+  position: relative;
+}
+
+h1 {
+  font-weight: 600;
+  padding-bottom: 1em;
+}
+
+p.lead {
+  line-height: 2em;
+}
+
+a, a:focus, a:visited, a:hover {
+  color: #98c593
+}
+
+.row {
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+.panel {
+  padding: 3em;
+  //margin-top: 3em;
+  //margin-bottom: 3em;
+}
+
+#intro {
+  background-image: url(img/intro.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+  height: 100%;
+}
+
+#intro h1 {
+  color: white;
+  font-size: 4em;
+}
+
+#one {
+  background-image: url(img/one.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#two {
+  background-image: url(img/two.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#where {
+  background-image: url(img/one.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.columns-2 {
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+}
