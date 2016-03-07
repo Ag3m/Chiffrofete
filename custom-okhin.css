@@ -1,0 +1,111 @@
+
+/* debug */
+.blue {
+  background-color: blue !important;
+}
+.red {
+  background-color: red !important;
+}
+/* fin debug */
+
+body {
+  font-size: 2em;
+  background-color: pink;
+  padding-top: 60px;
+  position: relative;
+}
+
+h1 {
+  font-weight: 600;
+  padding-bottom: 1em;
+}
+
+p.lead {
+  line-height: 2em;
+}
+
+a, a:focus, a:visited, a:hover {
+  color: ##e600e6;
+}
+
+a {
+  font-weight: 400;
+}
+
+strong a {
+  font-weight: 700;
+}
+
+.row {
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+.panel {
+  padding: 3em;
+  //margin-top: 3em;
+  //margin-bottom: 3em;
+}
+
+#intro {
+  background: pink;
+  color: white;
+  min-height: 100vh;
+}
+
+#intro h1 {
+  color: white;
+  font-size: 4em;
+}
+
+/* Logos qui tournent #lol #yolo */
+
+img[title="Logo"] {
+  -webkit-animation: logotournant 5s infinite linear;
+  -moz-animation: logotournant 5s infinite linear;
+  animation: logotournant 5s infinite linear;
+}
+
+@keyframes logotournant {
+  from {
+    -webkit-transform:rotate(0deg); 
+    -moz-transform:rotate(0deg);
+    -o-transform:rotate(0deg); 
+    -ms-transform:rotate(0deg); 
+    transform:rotate(0deg);
+  }
+    to {
+    -webkit-transform:rotate(360deg); 
+    -moz-transform:rotate(360deg);
+    -o-transform:rotate(360deg); 
+    -ms-transform:rotate(360deg); 
+    transform:rotate(360deg);
+  }
+}
+
+/* Fin des logos qui tournent #lol #yolo */
+
+#one {
+  background: pink;
+  min-height: 100vh;
+}
+
+#two {
+  background: pink;
+  min-height: 100vh;
+}
+
+#where {
+  background: pink;
+  min-height: 100vh;
+}
+
+#contact {
+  background-color: pink;
+  min-height: 100vh;
+}
+
+.columns-2 {
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+}
