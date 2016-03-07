@@ -60,9 +60,11 @@ strong a {
   font-size: 4em;
 }
 
+/* Logos qui tournent #lol #yolo 
+
 img[title="Logo"] {
-  -webkit-animation: logotournant 5s infinite linear; /* Chrome, Safari, Opera */
-  -moz-animation: logotournant 5s infinite linear; /* Chrome, Safari, Opera */
+  -webkit-animation: logotournant 5s infinite linear;
+  -moz-animation: logotournant 5s infinite linear;
   animation: logotournant 5s infinite linear;
 }
 
@@ -82,6 +84,8 @@ img[title="Logo"] {
     transform:rotate(360deg);
   }
 }
+
+ Fin des logos qui tournent #lol #yolo */
 
 #one {
   background-image: url(img/one.jpg);
