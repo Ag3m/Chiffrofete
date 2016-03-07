@@ -47,7 +47,7 @@ strong a {
 }
 
 #intro {
-  background: deeppink;
+  background: pink;
   color: white;
   min-height: 100vh;
 }
@@ -112,7 +112,7 @@ h1, a.navbar-brand {
 /* Fin des textes qui grossissent #lol #yolo */
 
 #one {
-  background: pink;
+  background: deeppink;
   min-height: 100vh;
 }
 
