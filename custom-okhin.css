@@ -47,7 +47,7 @@ strong a {
 }
 
 #intro {
-  background: pink;
+  background: deeppink;
   color: white;
   min-height: 100vh;
 }
@@ -117,12 +117,12 @@ h1, a.navbar-brand {
 }
 
 #two {
-  background: pink;
+  background: hotpink;
   min-height: 100vh;
 }
 
 #where {
-  background: pink;
+  background: PaleVioletRed ;
   min-height: 100vh;
 }
 
