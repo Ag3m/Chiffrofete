@@ -59,7 +59,7 @@ strong a {
 
 /* Logos qui tournent #lol #yolo */
 
-img[title="Logo"] {
+img {
   -webkit-animation: logotournant 5s infinite linear;
   -moz-animation: logotournant 5s infinite linear;
   animation: logotournant 5s infinite linear;
