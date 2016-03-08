@@ -71,12 +71,6 @@ strong a {
   background-color: #f5f6f7;
 }
 
-.columns-2 {
-    -webkit-column-count: 2; /* Chrome, Safari, Opera */
-    -moz-column-count: 2; /* Firefox */
-    column-count: 2;
-}
-
 /* Partie responsive */
 
 @media (min-width: 768px) { 
@@ -114,31 +108,3 @@ strong a {
     padding-top: 1em;
   }
 }
-
-
-/* Logos qui tournent #lol #yolo 
-
-img[title="Logo"] {
-  -webkit-animation: logotournant 5s infinite linear;
-  -moz-animation: logotournant 5s infinite linear;
-  animation: logotournant 5s infinite linear;
-}
-
-@keyframes logotournant {
-  from {
-    -webkit-transform:rotate(0deg); 
-    -moz-transform:rotate(0deg);
-    -o-transform:rotate(0deg); 
-    -ms-transform:rotate(0deg); 
-    transform:rotate(0deg);
-  }
-    to {
-    -webkit-transform:rotate(360deg); 
-    -moz-transform:rotate(360deg);
-    -o-transform:rotate(360deg); 
-    -ms-transform:rotate(360deg); 
-    transform:rotate(360deg);
-  }
-}
-
- Fin des logos qui tournent #lol #yolo */
