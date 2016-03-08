@@ -49,19 +49,19 @@ strong a {
   font-size: 4em;
 }
 
-#one {
+#qui {
   background-image: url(img/one.jpg);
   background-size: cover;
   background-attachment: fixed;
 }
 
-#two {
+#quoi {
   background-image: url(img/two.jpg);
   background-size: cover;
   background-attachment: fixed;
 }
 
-#where {
+#comment {
   background-image: url(img/one.jpg);
   background-size: cover;
   background-attachment: fixed;
@@ -89,7 +89,7 @@ strong a {
     padding: 3em;
   }
   
-  #intro, #one, #two, #where, #contact {
+  #intro, #qui, #quoi, #comment, #contact {
     min-height: 100vh;
   }
 }
